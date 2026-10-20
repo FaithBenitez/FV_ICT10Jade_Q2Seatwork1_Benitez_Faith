@@ -2,7 +2,7 @@ from pyscript import document
 
 def checkName(e):
     #to indicate who is currently in the section
-    jade_students = ["Zara Llaguno", "Jadrien Godino", "Carlos David"]
+    jade_students = ["Zara Llaguno", "Jadrien Godino", "Carlos David, Faith Benitez"]
     #assigning variable names to id
     first_name = document.getElementById("fname").value.strip()
     last_name = document.getElementById("lname").value.strip()
